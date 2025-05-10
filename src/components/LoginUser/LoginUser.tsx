@@ -42,6 +42,8 @@ export function LoginForm() {
     },
   });
 
+  const { setValue } = form;
+
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
     console.log('Form submitted with values:', values);
@@ -59,6 +61,15 @@ export function LoginForm() {
     }
   }
 
+    const handleStudentClick =()=>{
+        setValue("email","student@gmail.com")
+        setValue("password", '12345678')
+    }
+    const handleTeacherClick =()=>{
+        setValue("email", 'teacher@gmail.com')
+        setValue("password","12345678")
+    }
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
       <div className="w-full max-w-md bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
@@ -72,9 +83,13 @@ export function LoginForm() {
               Educational Management System
             </p>
           </div>
-          <h2 className="mt-4 text-lg font-medium text-gray-800 text-center">
+          {/* <h2 className="mt-4 text-lg font-medium text-gray-800 text-center">
             User Login
-          </h2>
+          </h2> */}
+          <div className="flex justify-around gap-5 mb-2 mt-4">
+                    <Button onClick={handleStudentClick} variant="outline" className='text-lg font-medium text-gray-800 text-center px-6'>Student</Button>
+                    <Button onClick={handleTeacherClick} variant="outline" className='text-lg font-medium text-gray-800 text-center px-6'>Teacher</Button>
+               </div>
         </div>
 
         {/* Form */}
