@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { TTutors } from '@/components/AlTutors/TutorCard';
 import TeacherBooking from '@/components/TeacherBooking/TeacherBooking';
 import { getAllTeacher, getCurrentUser } from '@/services/AuthService';

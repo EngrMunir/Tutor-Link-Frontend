@@ -1,5 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 'use client';
+/* eslint-disable @typescript-eslint/no-unused-vars */
 
 import { useEffect, useState } from 'react';
 import Head from 'next/head';

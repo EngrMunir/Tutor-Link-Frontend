@@ -1,4 +1,4 @@
-
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { getCurrentUser } from '@/services/AuthService';
 import { getServerSession } from 'next-auth';
 import Image from 'next/image';

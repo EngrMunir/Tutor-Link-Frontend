@@ -1,5 +1,5 @@
+
 /* eslint-disable @typescript-eslint/no-unused-vars */
-// @ts-ignore
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import {

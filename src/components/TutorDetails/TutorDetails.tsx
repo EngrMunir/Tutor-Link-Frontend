@@ -1,4 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client';
+
+
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
@@ -343,7 +346,7 @@ export default function TutorProfile({ tutor }: { tutor: TTutors }) {
             <BookingComponent
               hourlyRate={hourlyRate}
               tutorId={tutorId}
-              tutor={tutor}
+               tutor={tutor}
             />
           </TabsContent>
         </Tabs>

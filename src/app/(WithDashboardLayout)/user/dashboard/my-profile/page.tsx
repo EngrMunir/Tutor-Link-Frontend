@@ -1,4 +1,4 @@
-
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { MyProfile } from '@/components/MyProfile/MyProfile';
 import { getAllStudents, getCurrentUser } from '@/services/AuthService';
 

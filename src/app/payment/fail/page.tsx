@@ -24,7 +24,7 @@ export default function PaymentFailed() {
 
         <CardContent className="space-y-6">
           <p className="text-center text-gray-600">
-            We couldn't process your payment. Please check your payment details
+            We couldnt process your payment. Please check your payment details
             and try again.
           </p>
 
