@@ -145,7 +145,7 @@ export default function AboutPage() {
             data-aos="zoom-in"
             data-aos-delay="200"
           >
-            About TutorLink
+            About TutorLink-2
           </h1>
           <p
             className="text-xl max-w-3xl mx-auto"
